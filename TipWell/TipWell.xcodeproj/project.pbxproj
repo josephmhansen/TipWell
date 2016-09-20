@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		728CAD3D1D91EFD100401BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CAD3C1D91EFD100401BE0 /* AppDelegate.swift */; };
+		728CAD3F1D91EFD100401BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CAD3E1D91EFD100401BE0 /* ViewController.swift */; };
+		728CAD421D91EFD100401BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728CAD401D91EFD100401BE0 /* Main.storyboard */; };
+		728CAD441D91EFD100401BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728CAD431D91EFD100401BE0 /* Assets.xcassets */; };
+		728CAD471D91EFD100401BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728CAD451D91EFD100401BE0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		728CAD391D91EFD100401BE0 /* TipWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728CAD3C1D91EFD100401BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		728CAD3E1D91EFD100401BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		728CAD411D91EFD100401BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		728CAD431D91EFD100401BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		728CAD461D91EFD100401BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		728CAD481D91EFD100401BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728CAD361D91EFD100401BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		728CAD301D91EFD100401BE0 = {
+			isa = PBXGroup;
+			children = (
+				728CAD3B1D91EFD100401BE0 /* TipWell */,
+				728CAD3A1D91EFD100401BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		728CAD3A1D91EFD100401BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728CAD391D91EFD100401BE0 /* TipWell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728CAD3B1D91EFD100401BE0 /* TipWell */ = {
+			isa = PBXGroup;
+			children = (
+				728CAD3C1D91EFD100401BE0 /* AppDelegate.swift */,
+				728CAD3E1D91EFD100401BE0 /* ViewController.swift */,
+				728CAD401D91EFD100401BE0 /* Main.storyboard */,
+				728CAD431D91EFD100401BE0 /* Assets.xcassets */,
+				728CAD451D91EFD100401BE0 /* LaunchScreen.storyboard */,
+				728CAD481D91EFD100401BE0 /* Info.plist */,
+			);
+			path = TipWell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728CAD381D91EFD100401BE0 /* TipWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728CAD4B1D91EFD100401BE0 /* Build configuration list for PBXNativeTarget "TipWell" */;
+			buildPhases = (
+				728CAD351D91EFD100401BE0 /* Sources */,
+				728CAD361D91EFD100401BE0 /* Frameworks */,
+				728CAD371D91EFD100401BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipWell;
+			productName = TipWell;
+			productReference = 728CAD391D91EFD100401BE0 /* TipWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728CAD311D91EFD100401BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Joseph Hansen";
+				TargetAttributes = {
+					728CAD381D91EFD100401BE0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 793L5ZBT7T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 728CAD341D91EFD100401BE0 /* Build configuration list for PBXProject "TipWell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 728CAD301D91EFD100401BE0;
+			productRefGroup = 728CAD3A1D91EFD100401BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728CAD381D91EFD100401BE0 /* TipWell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728CAD371D91EFD100401BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728CAD471D91EFD100401BE0 /* LaunchScreen.storyboard in Resources */,
+				728CAD441D91EFD100401BE0 /* Assets.xcassets in Resources */,
+				728CAD421D91EFD100401BE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728CAD351D91EFD100401BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728CAD3F1D91EFD100401BE0 /* ViewController.swift in Sources */,
+				728CAD3D1D91EFD100401BE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		728CAD401D91EFD100401BE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728CAD411D91EFD100401BE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		728CAD451D91EFD100401BE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				728CAD461D91EFD100401BE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		728CAD491D91EFD100401BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		728CAD4A1D91EFD100401BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		728CAD4C1D91EFD100401BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 793L5ZBT7T;
+				INFOPLIST_FILE = TipWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devmountain.TipWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		728CAD4D1D91EFD100401BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 793L5ZBT7T;
+				INFOPLIST_FILE = TipWell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devmountain.TipWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728CAD341D91EFD100401BE0 /* Build configuration list for PBXProject "TipWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728CAD491D91EFD100401BE0 /* Debug */,
+				728CAD4A1D91EFD100401BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728CAD4B1D91EFD100401BE0 /* Build configuration list for PBXNativeTarget "TipWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728CAD4C1D91EFD100401BE0 /* Debug */,
+				728CAD4D1D91EFD100401BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728CAD311D91EFD100401BE0 /* Project object */;
+}
