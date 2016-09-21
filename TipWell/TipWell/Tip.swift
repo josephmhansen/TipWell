@@ -8,49 +8,43 @@
 
 import Foundation
 
+enum qualityOfService: Double {
+    //15%
+    case Low = 0.15
+    //19%
+    case Average = 0.19
+    //23%
+    case High = 0.23
+}
 
-struct Tip {
-    
-    enum qualityOfService: Double {
-        //15%
-        case Low = 0.15
-        //19%
-        case Average = 0.19
-        //23%
-        case High = 0.23
-    }
-    
-    enum paymentMethod: Double {
-        //+2.5%
-        case Card = 0.025
-        //+0%
-        case Cash = 0.0
-    }
+enum paymentMethod: Double {
+    //+2.5%
+    case Card = 0.025
+    //+0%
+    case Cash = 0.0
+}
+
+class Tip {
     
     var selectedQualityOfService: qualityOfService = .Average
     
     var selectedPaymentMethod: paymentMethod = .Card
     
-    var subTotal: Double
+    var subTotal: Double 
     
-    var splitNumber: Int = 1
+    var splitNumber: Double = 1.0
     
-    var minTipAmount: Double
+    var minTipAmount: Double?
     
-    var minTotal: Double
+    var minTotal: Double?
     
-    
-    init(selectedQualityOfService: qualityOfService = .Average, selectedPaymentMethod: paymentMethod = .Card, subTotal: Double, splitNumber: Int, minTipAmount: Double, minTotal: Double) {
+    init(selectedQualityOfService: qualityOfService = .Average, selectedPaymentMethod: paymentMethod = .Card, subTotal: Double, splitNumber: Int) {
         
         self.selectedQualityOfService = selectedQualityOfService
         self.selectedPaymentMethod = selectedPaymentMethod
         self.subTotal = subTotal
-        self.splitNumber = splitNumber
-        self.minTipAmount = minTipAmount
-        self.minTotal = minTotal
+        self.splitNumber = Double(splitNumber)
         
     }
-    
-    
     
 }
