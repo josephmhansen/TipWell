@@ -23,8 +23,6 @@ class TipController {
     func createMinTip(tip: Tip) -> Tip {
         let qualityPercentage = (tip.subTotal * tip.selectedQualityOfService.rawValue)
         let paymentTypePercentage = (tip.subTotal * tip.selectedPaymentMethod.rawValue)
-        
-        
         let minTip = (paymentTypePercentage + qualityPercentage) / tip.splitNumber
         tip.minTipAmount = minTip
         return tip
@@ -33,7 +31,6 @@ class TipController {
     
     func returnFullTip(tip: Tip) -> Tip? {
         let newTip = createMinTip(tip: tip)
-        
         guard let minTipAmount = newTip.minTipAmount else { return nil }
         let minTotal = (newTip.subTotal / newTip.splitNumber) + minTipAmount
         newTip.minTotal = minTotal

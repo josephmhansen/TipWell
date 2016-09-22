@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7253B60B1D947CC9001EA1FE /* QOSSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253B60A1D947CC9001EA1FE /* QOSSegmentedControl.swift */; };
+		7253B60D1D9488DE001EA1FE /* PMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7253B60C1D9488DE001EA1FE /* PMSegmentedControl.swift */; };
+		727FCD581D933E5500B3DCFC /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FCD571D933E5500B3DCFC /* TipViewController.swift */; };
+		727FCD5A1D933E7B00B3DCFC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727FCD591D933E7B00B3DCFC /* ResultsViewController.swift */; };
 		728CAD3D1D91EFD100401BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CAD3C1D91EFD100401BE0 /* AppDelegate.swift */; };
 		728CAD421D91EFD100401BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728CAD401D91EFD100401BE0 /* Main.storyboard */; };
 		728CAD441D91EFD100401BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728CAD431D91EFD100401BE0 /* Assets.xcassets */; };
 		728CAD471D91EFD100401BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 728CAD451D91EFD100401BE0 /* LaunchScreen.storyboard */; };
 		728CAD4F1D91EFFD00401BE0 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CAD4E1D91EFFD00401BE0 /* Tip.swift */; };
 		728CAD511D91F00A00401BE0 /* TipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CAD501D91F00A00401BE0 /* TipController.swift */; };
+		72BFEF361D944E920015A7F2 /* QualityOfServiceSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BFEF351D944E920015A7F2 /* QualityOfServiceSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7253B60A1D947CC9001EA1FE /* QOSSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QOSSegmentedControl.swift; sourceTree = "<group>"; };
+		7253B60C1D9488DE001EA1FE /* PMSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMSegmentedControl.swift; sourceTree = "<group>"; };
+		727FCD571D933E5500B3DCFC /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		727FCD591D933E7B00B3DCFC /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		728CAD391D91EFD100401BE0 /* TipWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		728CAD3C1D91EFD100401BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		728CAD411D91EFD100401BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		728CAD481D91EFD100401BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		728CAD4E1D91EFFD00401BE0 /* Tip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		728CAD501D91F00A00401BE0 /* TipController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipController.swift; sourceTree = "<group>"; };
+		72BFEF351D944E920015A7F2 /* QualityOfServiceSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityOfServiceSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			children = (
 				728CAD3C1D91EFD100401BE0 /* AppDelegate.swift */,
 				728CAD401D91EFD100401BE0 /* Main.storyboard */,
+				727FCD571D933E5500B3DCFC /* TipViewController.swift */,
+				72BFEF351D944E920015A7F2 /* QualityOfServiceSegmentedControl.swift */,
+				7253B60A1D947CC9001EA1FE /* QOSSegmentedControl.swift */,
+				7253B60C1D9488DE001EA1FE /* PMSegmentedControl.swift */,
+				727FCD591D933E7B00B3DCFC /* ResultsViewController.swift */,
 				728CAD4E1D91EFFD00401BE0 /* Tip.swift */,
 				728CAD501D91F00A00401BE0 /* TipController.swift */,
 				728CAD431D91EFD100401BE0 /* Assets.xcassets */,
@@ -142,7 +157,12 @@
 			files = (
 				728CAD3D1D91EFD100401BE0 /* AppDelegate.swift in Sources */,
 				728CAD4F1D91EFFD00401BE0 /* Tip.swift in Sources */,
+				727FCD581D933E5500B3DCFC /* TipViewController.swift in Sources */,
+				72BFEF361D944E920015A7F2 /* QualityOfServiceSegmentedControl.swift in Sources */,
+				727FCD5A1D933E7B00B3DCFC /* ResultsViewController.swift in Sources */,
+				7253B60D1D9488DE001EA1FE /* PMSegmentedControl.swift in Sources */,
 				728CAD511D91F00A00401BE0 /* TipController.swift in Sources */,
+				7253B60B1D947CC9001EA1FE /* QOSSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +324,7 @@
 				728CAD4D1D91EFD100401BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
