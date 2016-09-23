@@ -135,9 +135,9 @@ class TipViewController: UIViewController {
         
         if qualitySegmentControl.selectedIndex == 0 {
             //salesValue.text = "LOW"
-        }else if qualitySegmentControl.selectedIndex == 1{
+        } else if qualitySegmentControl.selectedIndex == 1 {
             //salesValue.text = "NEUTRAL"
-        }else{
+        } else {
             //salesValue.text = "HIGH"
         }
     }
